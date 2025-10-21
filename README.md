@@ -42,7 +42,7 @@ Compiler Lab inte Kurchu Programs 😃
 ## How to run
 ### Program having both LEX and YACC programs
 ```
-bison -d fileName.y  
+bison -d fileName.y  ## or yacc -d fileName.y
 flex fileName.l        
 gcc lex.yy.c y.tab.c -o calcn ## YACC inte program run cheyyumbol y.tab.c generate aakunundengil ee command use cheyyaam allengil (fileName.tab.c) ennu use cheyyane
 ./calc
